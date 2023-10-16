@@ -1,0 +1,20 @@
+#Рандомизировать кошельки? true / false
+IS_RANDOM = false
+
+#Количество токенов KLAY, отправляемое через Merkley за 1 транзакцию, к этому числу прибавляется комиссия Merkly ±0.36 KLAY
+VALUE_FROM = 0.001
+VALUE_TO = 0.003
+
+#Количество транзакций на каждом кошельке
+TRANSACTION_FROM = 1
+TRANSACTION_TO = 2
+
+#Задержка между транзакицями в секнудах
+TRANSACTION_DELAY_FROM = 20
+TRANSACTION_DELAY_TO = 40
+
+#Задержка между аккаунтами в секундах
+ACCOUNT_DELAY_FROM = 20
+ACCOUNT_DELAY_TO = 30
+
+RPC = "https://1rpc.io/klay"
