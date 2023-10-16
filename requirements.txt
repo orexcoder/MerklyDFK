@@ -1,0 +1,4 @@
+colorama==0.4.6
+termcolor==2.3.0
+toml==0.10.2
+web3==6.11.0
