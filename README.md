@@ -1,10 +1,11 @@
 # MerklyDFK
 Отправялет KLAY из сети Klaytn в нативные токены Fuse
+Добавлена поддержка маршрута Polygon -> Conflux
 
 Версия Python 3.10
 
   1. Скачайте все файлы
-  2. В keys.txt добавьте свои private keys от кошельков, на которых есть KLAY в сети Klaytn
+  2. В keys.txt добавьте свои private keys от кошельков, на которых есть KLAY в сети Klaytn или MATIC в сети Polygon
   3. Все настройки производятся в config.toml
   4. Запустите в папке с проектом 
 ```sh 
