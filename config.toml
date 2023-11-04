@@ -1,7 +1,9 @@
 #Рандомизировать кошельки? true / false
 IS_RANDOM = false
 
-#Количество токенов KLAY, отправляемое через Merkley за 1 транзакцию, к этому числу прибавляется комиссия Merkly ±0.36 KLAY
+#Количество $, на которые хотите бриджить в Merkly за 1 транзакцию, к этому числу прибавляется комиссия Merkly
+#Для Klay комиссия ±0.36 KLAY, для Polygon ±0.018 MATIC
+#Для Klay не реккомендуется ставить больше 0.003
 VALUE_FROM = 0.001
 VALUE_TO = 0.003
 
@@ -17,4 +19,6 @@ TRANSACTION_DELAY_TO = 40
 ACCOUNT_DELAY_FROM = 20
 ACCOUNT_DELAY_TO = 30
 
-RPC = "https://1rpc.io/klay"
+[RPCs]
+Klaytn = "https://1rpc.io/klay"
+Polygon = 'https://rpc.ankr.com/polygon'
